@@ -28,14 +28,10 @@ $ docker-compose up -d
 You should be able to visit the app at [http://localhost:8080](http://localhost:8080)
 You should also be able to run artisan commands from your local machine :)
 
-To stop the containers you can run `$ docker-compose kill`. If you'd like to remove them all together, after stopping run `$ docker-compose rm`.
-4. Migrate and insert records
-
 ```
 $ php artisan migrate
 ```
-
-5. Passport install and setup
+ Passport install and setup
 
 ```
 $ php artisan passport:install
